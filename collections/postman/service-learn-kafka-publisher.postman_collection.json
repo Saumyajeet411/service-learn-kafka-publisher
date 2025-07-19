@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "3b808327-2112-4cf8-9e5e-fb45b7ca4020",
+		"name": "service-learn-kafka-publisher",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28421773"
+	},
+	"item": [
+		{
+			"name": "LOCAL",
+			"item": [
+				{
+					"name": "Publish Message",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9091/v1/app/publish?message=Hello Buddy!!!",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9091",
+							"path": [
+								"v1",
+								"app",
+								"publish"
+							],
+							"query": [
+								{
+									"key": "message",
+									"value": "Hello Buddy!!!"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

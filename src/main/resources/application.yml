@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: service-learn-kafka-publisher
+  kafka:
+    bootstrap-servers:  localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    template:
+      default-topic: test-topic
+server:
+  port: 9091
+  servlet:
+    context-path: /v1/app
