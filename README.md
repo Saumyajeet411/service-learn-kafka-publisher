@@ -107,11 +107,6 @@ Once Kafka is running, you can run your **Spring Boot application** to publish m
 collections/postman/service-learn-kafka-publisher.postman_collection.json
 ```
 
-Send requests to:
-```
-http://localhost:<your-app-port>/kafka/publish?message=HelloKafka
-```
-
 ---
 
 ## ✅ Summary
